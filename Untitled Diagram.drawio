@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
+  <diagram name="Page-1" id="KuhmJpvB_MHPn443YzAP">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="372" width="95" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Import Data" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="153" y="372" width="116" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Data Cleaning" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="319" y="322" width="153" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Handle Missing Values" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="730" y="8" width="215" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Handle Outliers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="752" y="112" width="171" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Remove Duplicates" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="740" y="216" width="195" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Normalize Data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="752" y="320" width="170" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Encode Categorical Data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="424" width="236" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Select Features" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="752" y="528" width="171" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Apply Dimensionality Reduction" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="707" y="632" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Scale Data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="770" y="760" width="135" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Output Data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1017" y="760" width="148" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Missing Values" style="curved=1;startArrow=none;endArrow=block;exitX=0.77;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Outliers" style="curved=1;startArrow=none;endArrow=block;exitX=0.87;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Duplicates" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.1;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Normalization" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.37;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Encoding" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.64;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="451" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Feature Selection" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.91;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Dimensionality Reduction" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="671" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="Scaling" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="787" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="12" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
